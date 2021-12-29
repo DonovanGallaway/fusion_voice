@@ -11,6 +11,8 @@
     .about-section{
         width: 10%;
         margin: 3em;
+        border: 2px solid black;
+        padding: 2em;
     }
 
     ul {
@@ -20,12 +22,17 @@
         margin: .5em;
         list-style-type: none;
     }
+
+    .flavor-icon{
+        width: 5em;
+    }
 </style>
 
 <div id="about">
-    <h2>About Us</h2>
+    <!-- <h2 class="section-title">WHAT WE DO</h2> -->
     <div class="about-box">
         <div class="about-section">
+            <img class='flavor-icon' src='/musical-note.png' alt='music notes'/>
             <h3>Private Lessons</h3>
             <p>
                 VOICE / GUITAR /PIANO​<br/>
@@ -35,10 +42,12 @@
             </p>
         </div>
         <div class="about-section">
+            <img class='flavor-icon' src='/microphone.png' alt='microphone'/>
             <h3>Artist Development</h3>
             <p>Learn the Ins and Outs of the music industry and tackle all areas of being an artist. We go over everything from performance skill & stage presence to marketing and songwriting. Fine tune your skills and take them to all new levels to achieve your goals. </p>
         </div>
         <div class="about-section">
+            <img class='flavor-icon' src='/open-box.png' alt='gift box'/>
             <h3>Packages</h3>
             <ul>
                 <li>90 Day Coaching Package</li>

@@ -6,6 +6,7 @@
 	import Clients from './components/Clients.svelte'
 	import Pricing from './components/Pricing.svelte'
 	import Contact from './components/Contact.svelte'
+	import Footer from './components/Footer.svelte'
 </script>
 
 <style>
@@ -18,6 +19,27 @@
 		font-family: 'Oswald', sans-serif;
 	}
 
+	:global(.section-title){
+		color: rgb(255, 116, 0);
+	}
+
+	:global(p,li,h3, h5){
+		color: rgb(155, 0, 0)
+	}
+
+	:global(button){
+		border-radius: 10px;
+		background-color: white;
+		border: 2px solid black;
+		color: black;
+		text-align: right;
+	}
+
+	:global(button:hover){
+		color:rgb(197, 0, 0);
+		border: 2px solid rgb(197,0,0);
+		cursor: pointer;
+	}
 
 	
 </style>
@@ -33,3 +55,4 @@
 <Pricing/>
 <hr>
 <Contact/>
+<Footer/>

@@ -25,9 +25,14 @@
     .price-numbers {
         text-align: right;
     }
+
+    h2{
+        text-align: center;
+    }
 </style>
 
 <div id="pricing">
+    <h2 class="section-title">PRICING</h2>
     <div class="pricing-wrapper">
         {#each prices as price}
             <div class="price-wrapper">

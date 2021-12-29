@@ -21,6 +21,11 @@
         height: 300px;
     }
 
+    .link-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+
     @media screen and (max-width: 768px){
         #coach-wrapper{
             flex-direction: column;
@@ -28,7 +33,7 @@
     }
 </style>
 <div id="coach">
-<h2>Coach</h2>
+<h2 class="section-title">COACH</h2>
 </div>
 <div id="coach-wrapper">
     <div class="coach-img">
@@ -43,6 +48,7 @@
 
             April offers a unique vocal method designed to teach even the most inexperienced people how to tap into their potential and read their vocal goals - no matter how big or small.</p>
             <h5>VIRTUAL LESSONS ALSO AVAILABLE ON FACETIME, SKYPE, ZOOM ETC. </h5>
-            <a href='https://www.youtube.com/watch?v=kJColg08Q4k' target="_blank"><button>Compilation Video</button></a>
+        <div class="link-btn"><a href='https://www.youtube.com/watch?v=kJColg08Q4k' target="_blank"><button>Compilation Video</button></a></div>
     </div>
+    
 </div>

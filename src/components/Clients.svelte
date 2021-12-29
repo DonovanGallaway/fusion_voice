@@ -47,7 +47,7 @@
 </style>
 
 <div id="clients">
-    <h2>Clients</h2>
+    <h2 class="section-title">CLIENTS</h2>
     {#each clients as client}
         <div class="client-wrapper">
             <div class="client-img">
