@@ -5,11 +5,12 @@
 <style>
     div {
         margin: auto;
-        margin-top: 5em;
+        margin-top: 3em;
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: rgba(0,0,0,.2)
+        background-color: rgb(255, 50,50);
+        color: rgb(255, 239, 208)
     }
 </style>
 
