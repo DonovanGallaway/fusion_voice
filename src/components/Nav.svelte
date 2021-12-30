@@ -1,3 +1,7 @@
+<script>
+    import {Router, Link, Route} from 'svelte-navigator'
+</script>
+
 <style>
     nav {
         position: fixed;
@@ -13,8 +17,9 @@
         align-items: center;
     }
 
-    a, h1{
-        color: rgb(255, 239, 208)
+    h4, h1{
+        color: rgb(255, 239, 208);
+           
     }
 
     h1{
@@ -31,14 +36,14 @@
 <nav>
     <div class="navbar">
         <div class='logo'>
-        <h1>Fusion Voice Studios</h1>
+        <Link to='/'><h1>Fusion Voice Studios</h1></Link>
         <!-- <p>Make it happen.</p> -->
         </div>
-            <a href="#about"><h4>About Us</h4></a>
-            <a href="#coach"><h4>Coach</h4></a>
-            <a href="#clients"><h4>Clients</h4></a>
-            <a href="#pricing"><h4>Pricing</h4></a>
-            <a href="#contact"><h4>Contact</h4></a>
+            <Link to='about'><h4>What We Do</h4></Link>
+            <Link to='coach'><h4>Coach</h4></Link>
+            <Link to='clients'><h4>Clients</h4></Link>
+            <Link to='pricing'><h4>Pricing</h4></Link>
+            <Link to='contact'><h4>Contact</h4></Link>
             <!-- <a href="#testimonials"><h4>Testimonials</h4></a> -->
     </div>
 </nav>

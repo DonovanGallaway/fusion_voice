@@ -1,5 +1,6 @@
 <script>
-	import Header from './components/Header.svelte'
+	import {Router, Link, Route} from 'svelte-navigator'
+	import Landing from './components/Landing.svelte'
 	import Nav from './components/Nav.svelte'
 	import About from './components/About.svelte'
 	import Coach from './components/Coach.svelte'
@@ -41,11 +42,31 @@
 		cursor: pointer;
 	}
 
-	
+	.main-body{
+		margin-top: 10em;
+		min-height: 75vh;
+	}
+
+	:global(a){
+		text-decoration-color: rgb(255, 239, 208) 
+	}
 </style>
 
-<Nav/>
-<Header/>
+
+<Router>
+	<Nav/>
+	<div class="main-body">
+	<Route path='/' component={Landing}/>
+	<Route path='about' component={About}/>
+	<Route path='coach' component={Coach}/>
+	<Route path='clients' component={Clients}/>
+	<Route path='pricing' component={Pricing}/>
+	<Route path='contact' component={Contact}/>
+	</div>
+</Router>
+<Footer/>
+
+<!-- <Header/>
 <About/>
 <hr>
 <Coach/>
@@ -55,4 +76,4 @@
 <Pricing/>
 <hr>
 <Contact/>
-<Footer/>
+<Footer/> -->

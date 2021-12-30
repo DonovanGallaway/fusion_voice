@@ -9,10 +9,11 @@
     }
 
     .about-section{
-        width: 10%;
+        width: 30%;
         margin: 3em;
-        border: 2px solid black;
+        /* border: 2px solid rgb(197,0,0); */
         padding: 2em;
+        border-radius: 10px;
     }
 
     ul {
@@ -26,10 +27,18 @@
     .flavor-icon{
         width: 5em;
     }
+
+    h3{
+        font-size: 2em;
+    }
+
+    p,li{
+        font-size: 1.25em;
+    }
 </style>
 
 <div id="about">
-    <!-- <h2 class="section-title">WHAT WE DO</h2> -->
+    <h2 class="section-title">WHAT WE DO</h2>
     <div class="about-box">
         <div class="about-section">
             <img class='flavor-icon' src='/musical-note.png' alt='music notes'/>

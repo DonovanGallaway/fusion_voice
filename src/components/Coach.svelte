@@ -1,6 +1,7 @@
 <style>
     h2{
         text-align: center;
+        margin: -1em;
     }
 
     #coach-wrapper{
@@ -25,6 +26,8 @@
         display: flex;
         justify-content: flex-end;
     }
+
+
 
     @media screen and (max-width: 768px){
         #coach-wrapper{

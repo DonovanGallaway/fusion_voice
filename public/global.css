@@ -13,16 +13,17 @@ body {
 }
 
 a {
-	color: rgb(0,100,200);
+	color: rgb(255, 239, 208);
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+	text-decoration-color: rgb(255, 239, 208);
 }
 
 a:visited {
-	color: rgb(0,80,160);
+	color: rgb(255, 239, 208);
 }
 
 label {

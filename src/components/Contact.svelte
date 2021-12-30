@@ -17,10 +17,15 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
     }
 
     .contact-wrapper > *{
         margin: 3em;
+    }
+
+    .section-title{
+        margin: -1em;
     }
 </style>
 
@@ -31,6 +36,9 @@
             <img alt="fusion voice logo" src="/banner.png"/>
         </div>
         <div class="form-wrapper">
+            <h2>Ready to Book a Lesson?</h2>
+            <h3>Call April at 407-535-0166</h3>
+            <h4>or fill out the form below</h4>
             <form>
                 <label for='name'>Name: <br>
                 <input type="text" name="name"/>
@@ -55,3 +63,10 @@
     
     
 </div>
+
+Ready to book a lesson? 
+ 
+
+Call April at 407-535-0166
+
+or fill out the contact form below
